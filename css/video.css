@@ -1,0 +1,40 @@
+.videos-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-card {
+  width: 400px;
+}
+
+.video-thumbnail {
+  width: 100%;
+}
+
+.profile-pic {
+  border-radius: 100px;
+  width: 40px;
+}
+
+.profile-pic-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.video-info-container {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.video-title {
+  font-weight: bold;
+  width: 350px;
+}
+
+.video-creator-name,
+.video-stats {
+  color: #747474;
+  font-size: 12px;
+  margin-top: 5px;
+}
