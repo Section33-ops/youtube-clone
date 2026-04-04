@@ -15,6 +15,7 @@ p {
 .header {
   border-bottom: 1px solid rgb(172, 172, 172);
   margin-bottom: 10px;
+  padding: 10px 0px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   column-gap: 100px;
@@ -45,9 +46,12 @@ p {
 
 .search-icon {
   width: 25px;
-  border: 1px solid black;
   vertical-align: middle;
-  padding: 6px 20px;
+  padding: 0px 20px;
+}
+
+.search-container {
+  border: 1px solid rgb(185, 185, 185);
 }
 
 .voice-search-icon {
@@ -59,17 +63,18 @@ p {
 }
 
 .right-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
 }
 
 .upload,
 .youtube-apps,
-.notifications,
-.usr-profile-pic {
+.notifications {
   width: 30px;
 }
 
 .usr-profile-pic {
-  border-radius: 50px;
+  width: 40px;
+  border-radius: 15px;
 }
