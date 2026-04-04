@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Roboto, Arial;
 }
@@ -5,4 +10,66 @@ body {
 p {
   margin: 0;
   padding: 0;
+}
+
+.header {
+  border-bottom: 1px solid rgb(172, 172, 172);
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 100px;
+}
+
+/* .left-section {
+} */
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+}
+
+.hamburger-menu {
+  width: 20px;
+}
+
+.youtube-logo {
+  width: 90px;
+}
+
+.search-box {
+  width: 360px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-icon {
+  width: 25px;
+  border: 1px solid black;
+  vertical-align: middle;
+  padding: 6px 20px;
+}
+
+.voice-search-icon {
+  width: 25px;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: #f8f8f8;
+  margin-left: 10px;
+}
+
+.right-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.upload,
+.youtube-apps,
+.notifications,
+.usr-profile-pic {
+  width: 30px;
+}
+
+.usr-profile-pic {
+  border-radius: 50px;
 }
