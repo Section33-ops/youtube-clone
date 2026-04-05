@@ -7,16 +7,19 @@
   column-gap: 100px;
 }
 
-/* .left-section {
-} */
-
 .middle-section {
   display: flex;
   justify-content: center;
 }
 
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
 .hamburger-menu {
   height: 20px;
+  margin: 0px 20px;
 }
 
 .youtube-logo {
