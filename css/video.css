@@ -40,3 +40,17 @@
   font-size: 12px;
   margin-top: 5px;
 }
+
+.thumbnail-container {
+  position: relative;
+}
+
+.video-time {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  font-size: 14px;
+}
