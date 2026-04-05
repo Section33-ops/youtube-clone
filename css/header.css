@@ -16,11 +16,11 @@
 }
 
 .hamburger-menu {
-  width: 20px;
+  height: 20px;
 }
 
 .youtube-logo {
-  width: 90px;
+  height: 20px;
 }
 
 .search-box {
@@ -31,7 +31,7 @@
 }
 
 .search-icon {
-  width: 25px;
+  height: 25px;
   vertical-align: middle;
   padding: 0px 20px;
 }
@@ -41,7 +41,7 @@
 }
 
 .voice-search-icon {
-  width: 25px;
+  height: 25px;
   padding: 8px;
   border-radius: 50px;
   background-color: #f8f8f8;
@@ -51,16 +51,17 @@
 .right-section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0px 10px;
 }
 
 .upload,
 .youtube-apps,
 .notifications {
-  width: 30px;
+  height: 30px;
 }
 
 .usr-profile-pic {
-  width: 40px;
+  height: 40px;
   border-radius: 15px;
 }
