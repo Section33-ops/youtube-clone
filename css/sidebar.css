@@ -1,0 +1,29 @@
+.sidebar {
+  position: fixed;
+  background-color: rgb(255, 255, 255) FF;
+  top: 0;
+  bottom: 0;
+  margin-top: 60px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.sidebar-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar img {
+  height: 25px;
+}
+
+.sidebar-text {
+  font-size: 10px;
+  margin-top: 5px;
+}
