@@ -7,7 +7,15 @@
 }
 
 .video-card {
-  width: 300px;
+  /* width: 300px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.video-info {
+  display: flex;
 }
 
 .video-thumbnail {
@@ -16,24 +24,24 @@
 
 .profile-pic {
   border-radius: 100px;
-  width: 40px;
+  height: 40px;
 }
 
 .profile-pic-container {
-  display: inline-block;
-  vertical-align: top;
+  /* display: inline-block; */
+  /* vertical-align: top; */
   margin-top: 10px;
 }
 
-.video-info-container {
+/* .video-info-container {
   display: inline-block;
   margin-top: 10px;
-}
+} */
 
 .video-title {
   font-weight: bold;
   font-size: 14px;
-  width: 250px;
+  /* width: 250px; */
 }
 
 .video-creator-name,
